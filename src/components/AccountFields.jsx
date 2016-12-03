@@ -20,7 +20,7 @@ var AccountFields = React.createClass({
 			
 			<ul className="form-fields">
 				<li className="form-footer">
-					<button className="btn -default" onClick={ this.saveAndContinue }>Save and Continue</button>
+					<button className="btn -primary pull-right" onClick={ this.saveAndContinue }>Save and Continue</button>
 				</li>
 			</ul>
 			</div>		

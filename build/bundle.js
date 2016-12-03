@@ -20508,7 +20508,7 @@ var AccountFields = React.createClass({
 					{ className: "form-footer" },
 					React.createElement(
 						"button",
-						{ className: "btn -default", onClick: this.saveAndContinue },
+						{ className: "btn -primary pull-right", onClick: this.saveAndContinue },
 						"Save and Continue"
 					)
 				)

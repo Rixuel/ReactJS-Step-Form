@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "browserify -t [ babelify --presets [ react ] ] src/app.jsx -o bundle.js"
+    "build": "browserify -t [ babelify --presets [ react ] ] src/app.jsx -o build/bundle.js"
   },
   "author": "",
   "license": "ISC",
